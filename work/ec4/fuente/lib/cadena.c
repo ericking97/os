@@ -1,3 +1,4 @@
+/* $Id: cadena.c,v 1.2 2026/02/09 02:06:25 root Exp $ */
 /***********************************************************************
 * Archivo cadena.c : Funciones paar el manejo de cadenas. *
 * *

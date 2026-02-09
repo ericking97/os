@@ -1,0 +1,96 @@
+head	1.2;
+access;
+symbols
+	start:1.1.1.1 EC4:1.1.1;
+locks; strict;
+comment	@# @;
+
+
+1.2
+date	2026.02.09.02.06.25;	author root;	state Exp;
+branches;
+next	1.1;
+commitid	10069894121011E5798;
+
+1.1
+date	2026.02.09.02.03.19;	author root;	state Exp;
+branches
+	1.1.1.1;
+next	;
+commitid	10069894067006DC7AC;
+
+1.1.1.1
+date	2026.02.09.02.03.19;	author root;	state Exp;
+branches;
+next	;
+commitid	10069894067006DC7AC;
+
+
+desc
+@@
+
+
+1.2
+log
+@insercion de keywords y renombrado de lee.me
+@
+text
+@#!/bin/sh
+# $Id$
+#Script para compilar grado4
+ACTUAL=`pwd`
+
+cd ../../bin
+BIN=`pwd`
+cd $ACTUAL
+
+cd ../../lib
+LIB=`pwd`
+cd $ACTUAL
+
+cd ../incl
+INCL=`pwd`
+cd $ACTUAL
+
+cd ../util
+UTIL=`pwd`
+cd $ACTUAL
+
+cd ../grado0
+GRADO0=`pwd`
+cd $ACTUAL
+
+cd ../grado1
+GRADO1=`pwd`
+cd $ACTUAL
+
+cd ../grado2
+GRADO2=`pwd`
+cd $ACTUAL
+
+cd ../grado3
+GRADO3=`pwd`
+cd $ACTUAL
+
+make $* RUTA_BIN=$BIN/ RUTA_LIB=$LIB/ RUTA_INCL=$INCL/ RUTA_UTIL=$UTIL/ \
+RUTA_GRADO0=$GRADO0/ RUTA_GRADO1=$GRADO1/ RUTA_GRADO2=$GRADO2/ \
+RUTA_GRADO3=$GRADO3/
+
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d2 1
+@
+
+
+1.1.1.1
+log
+@Importacion inicial
+@
+text
+@@

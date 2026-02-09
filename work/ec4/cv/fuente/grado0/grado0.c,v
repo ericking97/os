@@ -1,0 +1,66 @@
+head	1.2;
+access;
+symbols
+	start:1.1.1.1 EC4:1.1.1;
+locks; strict;
+comment	@ * @;
+
+
+1.2
+date	2026.02.09.02.06.25;	author root;	state Exp;
+branches;
+next	1.1;
+commitid	10069894121011E5798;
+
+1.1
+date	2026.02.09.02.03.19;	author root;	state Exp;
+branches
+	1.1.1.1;
+next	;
+commitid	10069894067006DC7AC;
+
+1.1.1.1
+date	2026.02.09.02.03.19;	author root;	state Exp;
+branches;
+next	;
+commitid	10069894067006DC7AC;
+
+
+desc
+@@
+
+
+1.2
+log
+@insercion de keywords y renombrado de lee.me
+@
+text
+@/* $Id$ */
+/**************************************************************************
+* constante: Resuelve la ecuación constante mediante las consideraciones *
+* analíticas.
+**************************************************************************/
+#include "grado4.h"
+
+num_tipo_raiz constante(real *c, real *x)
+{
+    return (realcmp(c[0], 0.) ? 1 : 0);
+}
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d1 1
+@
+
+
+1.1.1.1
+log
+@Importacion inicial
+@
+text
+@@

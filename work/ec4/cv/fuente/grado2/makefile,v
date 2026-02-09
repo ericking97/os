@@ -1,0 +1,82 @@
+head	1.2;
+access;
+symbols
+	start:1.1.1.1 EC4:1.1.1;
+locks; strict;
+comment	@# @;
+
+
+1.2
+date	2026.02.09.02.06.25;	author root;	state Exp;
+branches;
+next	1.1;
+commitid	10069894121011E5798;
+
+1.1
+date	2026.02.09.02.03.19;	author root;	state Exp;
+branches
+	1.1.1.1;
+next	;
+commitid	10069894067006DC7AC;
+
+1.1.1.1
+date	2026.02.09.02.03.19;	author root;	state Exp;
+branches;
+next	;
+commitid	10069894067006DC7AC;
+
+
+desc
+@@
+
+
+1.2
+log
+@insercion de keywords y renombrado de lee.me
+@
+text
+@# $Id$
+# %W%
+COMPILADOR=gcc
+FUENTE = $(RUTA_GRADO0)grado0.c $(RUTA_GRADO1)grado1.c grado2.c \
+$(RUTA_UTIL)util.c stub.c
+OBJS=$(FUENTE:.c=.o)
+HEADER=grado4.h
+LIB=grado4
+PROG= $(RUTA_BIN)grado2
+
+CC: $(OBJS)
+	$(COMPILADOR) $(OBJS) -L$(RUTA_LIB) -l$(LIB) -lm -o $(PROG)
+	@@- echo "Compilación terminada"
+
+LIMPIA:
+	@@- rm -f $(OBJS)
+	@@- echo "Borrado de objetos terminado"
+
+BORRA:
+	@@- rm -f $(OBJS) $(PROG)
+	@@- echo "Borrado de archivos terminado"
+
+.c.o:
+	$(COMPILADOR) -c -I$(RUTA_INCL) $*.c -o $*.o
+
+$(OBJS): $(RUTA_INCL)$(HEADER) $(RUTA_LIB)lib$(LIB).a
+
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d1 1
+@
+
+
+1.1.1.1
+log
+@Importacion inicial
+@
+text
+@@

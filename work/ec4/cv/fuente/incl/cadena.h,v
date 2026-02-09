@@ -1,0 +1,82 @@
+head	1.2;
+access;
+symbols
+	start:1.1.1.1 EC4:1.1.1;
+locks; strict;
+comment	@ * @;
+
+
+1.2
+date	2026.02.09.02.06.25;	author root;	state Exp;
+branches;
+next	1.1;
+commitid	10069894121011E5798;
+
+1.1
+date	2026.02.09.02.03.19;	author root;	state Exp;
+branches
+	1.1.1.1;
+next	;
+commitid	10069894067006DC7AC;
+
+1.1.1.1
+date	2026.02.09.02.03.19;	author root;	state Exp;
+branches;
+next	;
+commitid	10069894067006DC7AC;
+
+
+desc
+@@
+
+
+1.2
+log
+@insercion de keywords y renombrado de lee.me
+@
+text
+@/* $Id$ */
+/***********************************************************************
+* Header para el manejo de cadenas.
+***********************************************************************/
+#include <string.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
+
+#ifndef _CADENA
+typedef char caracter;
+typedef caracter *cadena;
+
+cadena crea_cadena(int);
+cadena *crea_cadenas(int);
+void corta_cadenas(cadena *);
+void corta_cadena(cadena);
+cadena cambia_ext(cadena,cadena,cadena);
+cadena mayusculas(cadena);
+cadena remcarcad(cadena,caracter,caracter);
+cadena relledona(int,cadena,cadena);
+void incarcarcad(cadena,caracter,caracter);
+cadena limpiafgets(cadena);
+
+#define LONCAD 200
+#define _CADENA 1
+#endif
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d1 1
+@
+
+
+1.1.1.1
+log
+@Importacion inicial
+@
+text
+@@

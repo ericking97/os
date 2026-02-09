@@ -1,3 +1,4 @@
+/* $Id: grado4.h,v 1.2 2026/02/09 02:06:25 root Exp $ */
 /***************************************************************************
 * Header grado4.H: Contiene los heders, macros, tipos de datos y prototipos*
 * para la resolución de ecuaciones de grado 0 al 4 analiticamente. *

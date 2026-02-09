@@ -1,0 +1,61 @@
+head	1.2;
+access;
+symbols
+	start:1.1.1.1 EC4:1.1.1;
+locks; strict;
+comment	@.\" @;
+
+
+1.2
+date	2026.02.09.02.06.25;	author root;	state dead;
+branches;
+next	1.1;
+commitid	10069894121011E5798;
+
+1.1
+date	2026.02.09.02.03.19;	author root;	state Exp;
+branches
+	1.1.1.1;
+next	;
+commitid	10069894067006DC7AC;
+
+1.1.1.1
+date	2026.02.09.02.03.19;	author root;	state Exp;
+branches;
+next	;
+commitid	10069894067006DC7AC;
+
+
+desc
+@@
+
+
+1.2
+log
+@insercion de keywords y renombrado de lee.me
+@
+text
+@Directorio incl
+
+Headers para los módulos del proyecto. Lo componen:
+- cadena.h: Funciones para el manejo de cadenas.
+- real.h: Funciones para el manejo de números reales.
+- salir.h: Funciones para terminar la ejecución del programa.
+- grado4.h: Funciones para resolver la ecuación de cuarto grado y menores
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@@
+
+
+1.1.1.1
+log
+@Importacion inicial
+@
+text
+@@

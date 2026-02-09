@@ -1,6 +1,9 @@
+# $Id: makefile,v 1.2 2026/02/09 02:06:25 root Exp $
 # %W%
 LIBRERO=ar rc
 COMPILADOR=gcc
+CFLAGS=-g -O0
+
 FUENTE = cadena.c real.c salir.c
 OBJS=$(FUENTE:.c=.o)
 HEADER=$(RUTA_INCL)cadena.h $(RUTA_INCL)real.h $(RUTA_INCL)salir.h
@@ -19,7 +22,6 @@ BORRA:
 	@- echo "Borrado de archivos terminada"
 
 .c.o:
-	$(COMPILADOR) -c -I$(RUTA_INCL) $*.c
+	$(COMPILADOR) $(CFLAGS) -c -I$(RUTA_INCL) $*.c
 
 $(OBJS): $(HEADER)
-

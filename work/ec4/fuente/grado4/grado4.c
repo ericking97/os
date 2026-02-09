@@ -1,3 +1,4 @@
+/* $Id: grado4.c,v 1.2 2026/02/09 02:06:25 root Exp $ */
 /**************************************************************************
 * Libreria Grado4 Contiene las funciones para la solución analítica de los*
 * polinomios de grado 0 al 4. *

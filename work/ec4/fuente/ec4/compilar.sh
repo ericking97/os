@@ -1,4 +1,5 @@
 #!/bin/sh
+# $Id: compilar.sh,v 1.2 2026/02/09 02:06:25 root Exp $
 #Sript para compilar ec4
 ACTUAL=`pwd`
 

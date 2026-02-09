@@ -1,0 +1,99 @@
+head	1.2;
+access;
+symbols
+	start:1.1.1.1 EC4:1.1.1;
+locks; strict;
+comment	@ * @;
+
+
+1.2
+date	2026.02.09.02.06.25;	author root;	state Exp;
+branches;
+next	1.1;
+commitid	10069894121011E5798;
+
+1.1
+date	2026.02.09.02.03.19;	author root;	state Exp;
+branches
+	1.1.1.1;
+next	;
+commitid	10069894067006DC7AC;
+
+1.1.1.1
+date	2026.02.09.02.03.19;	author root;	state Exp;
+branches;
+next	;
+commitid	10069894067006DC7AC;
+
+
+desc
+@@
+
+
+1.2
+log
+@insercion de keywords y renombrado de lee.me
+@
+text
+@/* $Id$ */
+/**************************************************************************
+* Programa stub: Resuelve polinomios de grados 2 analíticamente *
+* empleando la librería grado2. Además usa la librería salir para terminar*
+* El programa. *
+**************************************************************************/
+#include "grado4.h"
+
+int main(int argc, char **argv)
+{
+    num_tipo_raiz tipo;
+    int i, grado = argc - 2;
+    real c[MAX_COEF];
+    real x[MAX_RAICES];
+
+    despedidas();
+
+    switch (argc) {
+    case 1:
+        error1();
+
+    case 2:
+    case 3:
+    case 4:
+        for (i = 0; i < argc - 1; i++)
+            c[i] = atof(argv[i + 1]);
+
+        for (; i < MAX_COEF; ++i)
+            c[i] = 0.;
+
+        tipo = cuadratica(c, x);
+        imprime_raices(c, x, grado, tipo);
+        visto_bueno(c, x, grado, tipo);
+        break;
+
+    default:
+        errorn();
+        break;
+    }
+
+    salir();
+    return (0);
+}
+
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d1 1
+@
+
+
+1.1.1.1
+log
+@Importacion inicial
+@
+text
+@@

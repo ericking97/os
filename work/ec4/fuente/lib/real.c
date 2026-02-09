@@ -1,3 +1,4 @@
+/* $Id: real.c,v 1.2 2026/02/09 02:06:25 root Exp $ */
 /***********************************************************************
 * Archivo real.c : Funciones para el manejo de vectores de reales. *
 * *

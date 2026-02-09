@@ -1,0 +1,99 @@
+head	1.2;
+access;
+symbols
+	start:1.1.1.1 EC4:1.1.1;
+locks; strict;
+comment	@ * @;
+
+
+1.2
+date	2026.02.09.02.06.25;	author root;	state Exp;
+branches;
+next	1.1;
+commitid	10069894121011E5798;
+
+1.1
+date	2026.02.09.02.03.19;	author root;	state Exp;
+branches
+	1.1.1.1;
+next	;
+commitid	10069894067006DC7AC;
+
+1.1.1.1
+date	2026.02.09.02.03.19;	author root;	state Exp;
+branches;
+next	;
+commitid	10069894067006DC7AC;
+
+
+desc
+@@
+
+
+1.2
+log
+@insercion de keywords y renombrado de lee.me
+@
+text
+@/* $Id$ */
+#include "grado4.h"
+
+int main(int argc, char *argv[])
+{
+    vector c = crea_vector(MAX_COEF);
+    vector x = crea_vector(MAX_RAICES);
+    num_tipo_raiz tipo;
+    int i, grado = argc - 2;
+
+    despedidas();
+    limpia();
+
+    switch (argc)
+    {
+    case 1:
+        fprintf(stderr, "uso:\n");
+        fprintf(stderr, "%s c0 c1 c2 c3 c4\n", argv[0]);
+        salir();
+        break;
+
+    case 2:
+    case 3:
+    case 4:
+    case 5:
+    case 6:
+        for (i = 0; i < argc - 1; i++)
+            c[i] = atof(argv[i + 1]);
+
+        tipo = cuartica(c, x);
+        visto_bueno(c, x, grado, tipo);
+        imprime_raices(c, x, grado, tipo);
+        break;
+
+    default:
+        fprintf(stderr, "Sorry solo resuelvo hasta grado 4\n");
+        fprintf(stderr, "\aHorror coeficientes de mas :<\n");
+        abortar();
+        break;
+    }
+
+    salir();
+}
+
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d1 1
+@
+
+
+1.1.1.1
+log
+@Importacion inicial
+@
+text
+@@

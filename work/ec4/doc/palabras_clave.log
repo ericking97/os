@@ -1,0 +1,1106 @@
+Script started on 2026-02-09 02:04:41+00:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="106" LINES="51"]
+# pwd
+/penguinpanthers/ec4
+# ls
+bin  cv  doc  fuente  keywords.sh  lib	renombrar.sh
+# mv keyword.sh               ./keyw	ords.sh ./fuente
+OK: keywords insertados (sin duplicados).
+# cvs status
+cvs status: Examining fuente
+cvs status: Examining fuente/ec4
+===================================================================
+File: LEE.ME           	Status: Up-to-date
+
+   Working revision:	1.1.1.1	2026-02-09 02:03:19 +0000
+   Repository revision:	1.1.1.1	/penguinpanthers/ec4/cv/fuente/ec4/LEE.ME,v
+   Commit Identifier:	10069894067006DC7AC
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: compilar.sh      	Status: Locally Modified
+
+   Working revision:	1.1.1.1	2026-02-09 02:03:19 +0000
+   Repository revision:	1.1.1.1	/penguinpanthers/ec4/cv/fuente/ec4/compilar.sh,v
+   Commit Identifier:	10069894067006DC7AC
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: ec4.c            	Status: Locally Modified
+
+   Working revision:	1.1.1.1	2026-02-09 02:03:19 +0000
+   Repository revision:	1.1.1.1	/penguinpanthers/ec4/cv/fuente/ec4/ec4.c,v
+   Commit Identifier:	10069894067006DC7AC
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: makefile         	Status: Locally Modified
+
+   Working revision:	1.1.1.1	2026-02-09 02:03:19 +0000
+   Repository revision:	1.1.1.1	/penguinpanthers/ec4/cv/fuente/ec4/makefile,v
+   Commit Identifier:	10069894067006DC7AC
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+cvs status: Examining fuente/grado0
+===================================================================
+File: LEE.ME           	Status: Up-to-date
+
+   Working revision:	1.1.1.1	2026-02-09 02:03:19 +0000
+   Repository revision:	1.1.1.1	/penguinpanthers/ec4/cv/fuente/grado0/LEE.ME,v
+   Commit Identifier:	10069894067006DC7AC
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: compilar.sh      	Status: Locally Modified
+
+   Working revision:	1.1.1.1	2026-02-09 02:03:19 +0000
+   Repository revision:	1.1.1.1	/penguinpanthers/ec4/cv/fuente/grado0/compilar.sh,v
+   Commit Identifier:	10069894067006DC7AC
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: grado0.c         	Status: Locally Modified
+
+   Working revision:	1.1.1.1	2026-02-09 02:03:19 +0000
+   Repository revision:	1.1.1.1	/penguinpanthers/ec4/cv/fuente/grado0/grado0.c,v
+   Commit Identifier:	10069894067006DC7AC
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: makefile         	Status: Locally Modified
+
+   Working revision:	1.1.1.1	2026-02-09 02:03:19 +0000
+   Repository revision:	1.1.1.1	/penguinpanthers/ec4/cv/fuente/grado0/makefile,v
+   Commit Identifier:	10069894067006DC7AC
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: stub.c           	Status: Locally Modified
+
+   Working revision:	1.1.1.1	2026-02-09 02:03:19 +0000
+   Repository revision:	1.1.1.1	/penguinpanthers/ec4/cv/fuente/grado0/stub.c,v
+   Commit Identifier:	10069894067006DC7AC
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+cvs status: Examining fuente/grado1
+===================================================================
+File: LEE.ME           	Status: Up-to-date
+
+   Working revision:	1.1.1.1	2026-02-09 02:03:19 +0000
+   Repository revision:	1.1.1.1	/penguinpanthers/ec4/cv/fuente/grado1/LEE.ME,v
+   Commit Identifier:	10069894067006DC7AC
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: compilar.sh      	Status: Locally Modified
+
+   Working revision:	1.1.1.1	2026-02-09 02:03:19 +0000
+   Repository revision:	1.1.1.1	/penguinpanthers/ec4/cv/fuente/grado1/compilar.sh,v
+   Commit Identifier:	10069894067006DC7AC
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: grado1.c         	Status: Locally Modified
+
+   Working revision:	1.1.1.1	2026-02-09 02:03:19 +0000
+   Repository revision:	1.1.1.1	/penguinpanthers/ec4/cv/fuente/grado1/grado1.c,v
+   Commit Identifier:	10069894067006DC7AC
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: makefile         	Status: Locally Modified
+
+   Working revision:	1.1.1.1	2026-02-09 02:03:19 +0000
+   Repository revision:	1.1.1.1	/penguinpanthers/ec4/cv/fuente/grado1/makefile,v
+   Commit Identifier:	10069894067006DC7AC
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: stub.c           	Status: Locally Modified
+
+   Working revision:	1.1.1.1	2026-02-09 02:03:19 +0000
+   Repository revision:	1.1.1.1	/penguinpanthers/ec4/cv/fuente/grado1/stub.c,v
+   Commit Identifier:	10069894067006DC7AC
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+cvs status: Examining fuente/grado2
+===================================================================
+File: LEE.ME           	Status: Up-to-date
+
+   Working revision:	1.1.1.1	2026-02-09 02:03:19 +0000
+   Repository revision:	1.1.1.1	/penguinpanthers/ec4/cv/fuente/grado2/LEE.ME,v
+   Commit Identifier:	10069894067006DC7AC
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: compilar.sh      	Status: Locally Modified
+
+   Working revision:	1.1.1.1	2026-02-09 02:03:19 +0000
+   Repository revision:	1.1.1.1	/penguinpanthers/ec4/cv/fuente/grado2/compilar.sh,v
+   Commit Identifier:	10069894067006DC7AC
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: grado2.c         	Status: Locally Modified
+
+   Working revision:	1.1.1.1	2026-02-09 02:03:19 +0000
+   Repository revision:	1.1.1.1	/penguinpanthers/ec4/cv/fuente/grado2/grado2.c,v
+   Commit Identifier:	10069894067006DC7AC
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: makefile         	Status: Locally Modified
+
+   Working revision:	1.1.1.1	2026-02-09 02:03:19 +0000
+   Repository revision:	1.1.1.1	/penguinpanthers/ec4/cv/fuente/grado2/makefile,v
+   Commit Identifier:	10069894067006DC7AC
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: stub.c           	Status: Locally Modified
+
+   Working revision:	1.1.1.1	2026-02-09 02:03:19 +0000
+   Repository revision:	1.1.1.1	/penguinpanthers/ec4/cv/fuente/grado2/stub.c,v
+   Commit Identifier:	10069894067006DC7AC
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+cvs status: Examining fuente/grado3
+===================================================================
+File: LEE.ME           	Status: Up-to-date
+
+   Working revision:	1.1.1.1	2026-02-09 02:03:19 +0000
+   Repository revision:	1.1.1.1	/penguinpanthers/ec4/cv/fuente/grado3/LEE.ME,v
+   Commit Identifier:	10069894067006DC7AC
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: compilar.sh      	Status: Locally Modified
+
+   Working revision:	1.1.1.1	2026-02-09 02:03:19 +0000
+   Repository revision:	1.1.1.1	/penguinpanthers/ec4/cv/fuente/grado3/compilar.sh,v
+   Commit Identifier:	10069894067006DC7AC
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: grado3.c         	Status: Locally Modified
+
+   Working revision:	1.1.1.1	2026-02-09 02:03:19 +0000
+   Repository revision:	1.1.1.1	/penguinpanthers/ec4/cv/fuente/grado3/grado3.c,v
+   Commit Identifier:	10069894067006DC7AC
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: makefile         	Status: Locally Modified
+
+   Working revision:	1.1.1.1	2026-02-09 02:03:19 +0000
+   Repository revision:	1.1.1.1	/penguinpanthers/ec4/cv/fuente/grado3/makefile,v
+   Commit Identifier:	10069894067006DC7AC
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: stub.c           	Status: Locally Modified
+
+   Working revision:	1.1.1.1	2026-02-09 02:03:19 +0000
+   Repository revision:	1.1.1.1	/penguinpanthers/ec4/cv/fuente/grado3/stub.c,v
+   Commit Identifier:	10069894067006DC7AC
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+cvs status: Examining fuente/grado4
+===================================================================
+File: LEE.ME           	Status: Up-to-date
+
+   Working revision:	1.1.1.1	2026-02-09 02:03:19 +0000
+   Repository revision:	1.1.1.1	/penguinpanthers/ec4/cv/fuente/grado4/LEE.ME,v
+   Commit Identifier:	10069894067006DC7AC
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: compilar.sh      	Status: Locally Modified
+
+   Working revision:	1.1.1.1	2026-02-09 02:03:19 +0000
+   Repository revision:	1.1.1.1	/penguinpanthers/ec4/cv/fuente/grado4/compilar.sh,v
+   Commit Identifier:	10069894067006DC7AC
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: grado4.c         	Status: Locally Modified
+
+   Working revision:	1.1.1.1	2026-02-09 02:03:19 +0000
+   Repository revision:	1.1.1.1	/penguinpanthers/ec4/cv/fuente/grado4/grado4.c,v
+   Commit Identifier:	10069894067006DC7AC
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: makefile         	Status: Locally Modified
+
+   Working revision:	1.1.1.1	2026-02-09 02:03:19 +0000
+   Repository revision:	1.1.1.1	/penguinpanthers/ec4/cv/fuente/grado4/makefile,v
+   Commit Identifier:	10069894067006DC7AC
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: stub.c           	Status: Locally Modified
+
+   Working revision:	1.1.1.1	2026-02-09 02:03:19 +0000
+   Repository revision:	1.1.1.1	/penguinpanthers/ec4/cv/fuente/grado4/stub.c,v
+   Commit Identifier:	10069894067006DC7AC
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+cvs status: Examining fuente/incl
+===================================================================
+File: LEE.ME           	Status: Up-to-date
+
+   Working revision:	1.1.1.1	2026-02-09 02:03:19 +0000
+   Repository revision:	1.1.1.1	/penguinpanthers/ec4/cv/fuente/incl/LEE.ME,v
+   Commit Identifier:	10069894067006DC7AC
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: cadena.h         	Status: Locally Modified
+
+   Working revision:	1.1.1.1	2026-02-09 02:03:19 +0000
+   Repository revision:	1.1.1.1	/penguinpanthers/ec4/cv/fuente/incl/cadena.h,v
+   Commit Identifier:	10069894067006DC7AC
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: grado4.h         	Status: Locally Modified
+
+   Working revision:	1.1.1.1	2026-02-09 02:03:19 +0000
+   Repository revision:	1.1.1.1	/penguinpanthers/ec4/cv/fuente/incl/grado4.h,v
+   Commit Identifier:	10069894067006DC7AC
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: real.h           	Status: Locally Modified
+
+   Working revision:	1.1.1.1	2026-02-09 02:03:19 +0000
+   Repository revision:	1.1.1.1	/penguinpanthers/ec4/cv/fuente/incl/real.h,v
+   Commit Identifier:	10069894067006DC7AC
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: salir.h          	Status: Locally Modified
+
+   Working revision:	1.1.1.1	2026-02-09 02:03:19 +0000
+   Repository revision:	1.1.1.1	/penguinpanthers/ec4/cv/fuente/incl/salir.h,v
+   Commit Identifier:	10069894067006DC7AC
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+cvs status: Examining fuente/lib
+===================================================================
+File: LEE.ME           	Status: Up-to-date
+
+   Working revision:	1.1.1.1	2026-02-09 02:03:19 +0000
+   Repository revision:	1.1.1.1	/penguinpanthers/ec4/cv/fuente/lib/LEE.ME,v
+   Commit Identifier:	10069894067006DC7AC
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: cadena.c         	Status: Locally Modified
+
+   Working revision:	1.1.1.1	2026-02-09 02:03:19 +0000
+   Repository revision:	1.1.1.1	/penguinpanthers/ec4/cv/fuente/lib/cadena.c,v
+   Commit Identifier:	10069894067006DC7AC
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: compilar.sh      	Status: Locally Modified
+
+   Working revision:	1.1.1.1	2026-02-09 02:03:19 +0000
+   Repository revision:	1.1.1.1	/penguinpanthers/ec4/cv/fuente/lib/compilar.sh,v
+   Commit Identifier:	10069894067006DC7AC
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: makefile         	Status: Locally Modified
+
+   Working revision:	1.1.1.1	2026-02-09 02:03:19 +0000
+   Repository revision:	1.1.1.1	/penguinpanthers/ec4/cv/fuente/lib/makefile,v
+   Commit Identifier:	10069894067006DC7AC
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: real.c           	Status: Locally Modified
+
+   Working revision:	1.1.1.1	2026-02-09 02:03:19 +0000
+   Repository revision:	1.1.1.1	/penguinpanthers/ec4/cv/fuente/lib/real.c,v
+   Commit Identifier:	10069894067006DC7AC
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: salir.c          	Status: Locally Modified
+
+   Working revision:	1.1.1.1	2026-02-09 02:03:19 +0000
+   Repository revision:	1.1.1.1	/penguinpanthers/ec4/cv/fuente/lib/salir.c,v
+   Commit Identifier:	10069894067006DC7AC
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+cvs status: Examining fuente/util
+===================================================================
+File: LEE.ME           	Status: Up-to-date
+
+   Working revision:	1.1.1.1	2026-02-09 02:03:19 +0000
+   Repository revision:	1.1.1.1	/penguinpanthers/ec4/cv/fuente/util/LEE.ME,v
+   Commit Identifier:	10069894067006DC7AC
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: util.c           	Status: Locally Modified
+
+   Working revision:	1.1.1.1	2026-02-09 02:03:19 +0000
+   Repository revision:	1.1.1.1	/penguinpanthers/ec4/cv/fuente/util/util.c,v
+   Commit Identifier:	10069894067006DC7AC
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+# ./re	    ls
+bin  cv  doc  fuente  keywords.sh  lib	renombrar.sh
+# ./renombrar.sh ./fuente
+cvs remove: scheduling `LEE.ME' for removal
+cvs remove: use `cvs commit' to remove this file permanently
+cvs add: scheduling file `LEE.PORFAVOR' for addition
+cvs add: use `cvs commit' to add this file permanently
+cvs remove: scheduling `LEE.ME' for removal
+cvs remove: use `cvs commit' to remove this file permanently
+cvs add: scheduling file `LEE.PORFAVOR' for addition
+cvs add: use `cvs commit' to add this file permanently
+cvs remove: scheduling `LEE.ME' for removal
+cvs remove: use `cvs commit' to remove this file permanently
+cvs add: scheduling file `LEE.PORFAVOR' for addition
+cvs add: use `cvs commit' to add this file permanently
+cvs remove: scheduling `LEE.ME' for removal
+cvs remove: use `cvs commit' to remove this file permanently
+cvs add: scheduling file `LEE.PORFAVOR' for addition
+cvs add: use `cvs commit' to add this file permanently
+cvs remove: scheduling `LEE.ME' for removal
+cvs remove: use `cvs commit' to remove this file permanently
+cvs add: scheduling file `LEE.PORFAVOR' for addition
+cvs add: use `cvs commit' to add this file permanently
+cvs remove: scheduling `LEE.ME' for removal
+cvs remove: use `cvs commit' to remove this file permanently
+cvs add: scheduling file `LEE.PORFAVOR' for addition
+cvs add: use `cvs commit' to add this file permanently
+cvs remove: scheduling `LEE.ME' for removal
+cvs remove: use `cvs commit' to remove this file permanently
+cvs add: scheduling file `LEE.PORFAVOR' for addition
+cvs add: use `cvs commit' to add this file permanently
+cvs remove: scheduling `LEE.ME' for removal
+cvs remove: use `cvs commit' to remove this file permanently
+cvs add: scheduling file `LEE.PORFAVOR' for addition
+cvs add: use `cvs commit' to add this file permanently
+cvs remove: scheduling `LEE.ME' for removal
+cvs remove: use `cvs commit' to remove this file permanently
+cvs add: scheduling file `LEE.PORFAVOR' for addition
+cvs add: use `cvs commit' to add this file permanently
+OK: renombrados LEE.ME -> LEE.PORFAVOR y registrados en CVS (remove/add).
+# cvs status
+cvs status: Examining fuente
+cvs status: Examining fuente/ec4
+===================================================================
+File: no file LEE.ME		Status: Locally Removed
+
+   Working revision:	-1.1.1.1	2026-02-09 02:03:19 +0000
+   Repository revision:	1.1.1.1	/penguinpanthers/ec4/cv/fuente/ec4/LEE.ME,v
+   Commit Identifier:	10069894067006DC7AC
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: LEE.PORFAVOR     	Status: Locally Added
+
+   Working revision:	New file!
+   Repository revision:	No revision control file
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: compilar.sh      	Status: Locally Modified
+
+   Working revision:	1.1.1.1	2026-02-09 02:03:19 +0000
+   Repository revision:	1.1.1.1	/penguinpanthers/ec4/cv/fuente/ec4/compilar.sh,v
+   Commit Identifier:	10069894067006DC7AC
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: ec4.c            	Status: Locally Modified
+
+   Working revision:	1.1.1.1	2026-02-09 02:03:19 +0000
+   Repository revision:	1.1.1.1	/penguinpanthers/ec4/cv/fuente/ec4/ec4.c,v
+   Commit Identifier:	10069894067006DC7AC
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: makefile         	Status: Locally Modified
+
+   Working revision:	1.1.1.1	2026-02-09 02:03:19 +0000
+   Repository revision:	1.1.1.1	/penguinpanthers/ec4/cv/fuente/ec4/makefile,v
+   Commit Identifier:	10069894067006DC7AC
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+cvs status: Examining fuente/grado0
+===================================================================
+File: no file LEE.ME		Status: Locally Removed
+
+   Working revision:	-1.1.1.1	2026-02-09 02:03:19 +0000
+   Repository revision:	1.1.1.1	/penguinpanthers/ec4/cv/fuente/grado0/LEE.ME,v
+   Commit Identifier:	10069894067006DC7AC
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: LEE.PORFAVOR     	Status: Locally Added
+
+   Working revision:	New file!
+   Repository revision:	No revision control file
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: compilar.sh      	Status: Locally Modified
+
+   Working revision:	1.1.1.1	2026-02-09 02:03:19 +0000
+   Repository revision:	1.1.1.1	/penguinpanthers/ec4/cv/fuente/grado0/compilar.sh,v
+   Commit Identifier:	10069894067006DC7AC
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: grado0.c         	Status: Locally Modified
+
+   Working revision:	1.1.1.1	2026-02-09 02:03:19 +0000
+   Repository revision:	1.1.1.1	/penguinpanthers/ec4/cv/fuente/grado0/grado0.c,v
+   Commit Identifier:	10069894067006DC7AC
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: makefile         	Status: Locally Modified
+
+   Working revision:	1.1.1.1	2026-02-09 02:03:19 +0000
+   Repository revision:	1.1.1.1	/penguinpanthers/ec4/cv/fuente/grado0/makefile,v
+   Commit Identifier:	10069894067006DC7AC
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: stub.c           	Status: Locally Modified
+
+   Working revision:	1.1.1.1	2026-02-09 02:03:19 +0000
+   Repository revision:	1.1.1.1	/penguinpanthers/ec4/cv/fuente/grado0/stub.c,v
+   Commit Identifier:	10069894067006DC7AC
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+cvs status: Examining fuente/grado1
+===================================================================
+File: no file LEE.ME		Status: Locally Removed
+
+   Working revision:	-1.1.1.1	2026-02-09 02:03:19 +0000
+   Repository revision:	1.1.1.1	/penguinpanthers/ec4/cv/fuente/grado1/LEE.ME,v
+   Commit Identifier:	10069894067006DC7AC
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: LEE.PORFAVOR     	Status: Locally Added
+
+   Working revision:	New file!
+   Repository revision:	No revision control file
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: compilar.sh      	Status: Locally Modified
+
+   Working revision:	1.1.1.1	2026-02-09 02:03:19 +0000
+   Repository revision:	1.1.1.1	/penguinpanthers/ec4/cv/fuente/grado1/compilar.sh,v
+   Commit Identifier:	10069894067006DC7AC
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: grado1.c         	Status: Locally Modified
+
+   Working revision:	1.1.1.1	2026-02-09 02:03:19 +0000
+   Repository revision:	1.1.1.1	/penguinpanthers/ec4/cv/fuente/grado1/grado1.c,v
+   Commit Identifier:	10069894067006DC7AC
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: makefile         	Status: Locally Modified
+
+   Working revision:	1.1.1.1	2026-02-09 02:03:19 +0000
+   Repository revision:	1.1.1.1	/penguinpanthers/ec4/cv/fuente/grado1/makefile,v
+   Commit Identifier:	10069894067006DC7AC
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: stub.c           	Status: Locally Modified
+
+   Working revision:	1.1.1.1	2026-02-09 02:03:19 +0000
+   Repository revision:	1.1.1.1	/penguinpanthers/ec4/cv/fuente/grado1/stub.c,v
+   Commit Identifier:	10069894067006DC7AC
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+cvs status: Examining fuente/grado2
+===================================================================
+File: no file LEE.ME		Status: Locally Removed
+
+   Working revision:	-1.1.1.1	2026-02-09 02:03:19 +0000
+   Repository revision:	1.1.1.1	/penguinpanthers/ec4/cv/fuente/grado2/LEE.ME,v
+   Commit Identifier:	10069894067006DC7AC
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: LEE.PORFAVOR     	Status: Locally Added
+
+   Working revision:	New file!
+   Repository revision:	No revision control file
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: compilar.sh      	Status: Locally Modified
+
+   Working revision:	1.1.1.1	2026-02-09 02:03:19 +0000
+   Repository revision:	1.1.1.1	/penguinpanthers/ec4/cv/fuente/grado2/compilar.sh,v
+   Commit Identifier:	10069894067006DC7AC
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: grado2.c         	Status: Locally Modified
+
+   Working revision:	1.1.1.1	2026-02-09 02:03:19 +0000
+   Repository revision:	1.1.1.1	/penguinpanthers/ec4/cv/fuente/grado2/grado2.c,v
+   Commit Identifier:	10069894067006DC7AC
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: makefile         	Status: Locally Modified
+
+   Working revision:	1.1.1.1	2026-02-09 02:03:19 +0000
+   Repository revision:	1.1.1.1	/penguinpanthers/ec4/cv/fuente/grado2/makefile,v
+   Commit Identifier:	10069894067006DC7AC
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: stub.c           	Status: Locally Modified
+
+   Working revision:	1.1.1.1	2026-02-09 02:03:19 +0000
+   Repository revision:	1.1.1.1	/penguinpanthers/ec4/cv/fuente/grado2/stub.c,v
+   Commit Identifier:	10069894067006DC7AC
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+cvs status: Examining fuente/grado3
+===================================================================
+File: no file LEE.ME		Status: Locally Removed
+
+   Working revision:	-1.1.1.1	2026-02-09 02:03:19 +0000
+   Repository revision:	1.1.1.1	/penguinpanthers/ec4/cv/fuente/grado3/LEE.ME,v
+   Commit Identifier:	10069894067006DC7AC
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: LEE.PORFAVOR     	Status: Locally Added
+
+   Working revision:	New file!
+   Repository revision:	No revision control file
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: compilar.sh      	Status: Locally Modified
+
+   Working revision:	1.1.1.1	2026-02-09 02:03:19 +0000
+   Repository revision:	1.1.1.1	/penguinpanthers/ec4/cv/fuente/grado3/compilar.sh,v
+   Commit Identifier:	10069894067006DC7AC
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: grado3.c         	Status: Locally Modified
+
+   Working revision:	1.1.1.1	2026-02-09 02:03:19 +0000
+   Repository revision:	1.1.1.1	/penguinpanthers/ec4/cv/fuente/grado3/grado3.c,v
+   Commit Identifier:	10069894067006DC7AC
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: makefile         	Status: Locally Modified
+
+   Working revision:	1.1.1.1	2026-02-09 02:03:19 +0000
+   Repository revision:	1.1.1.1	/penguinpanthers/ec4/cv/fuente/grado3/makefile,v
+   Commit Identifier:	10069894067006DC7AC
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: stub.c           	Status: Locally Modified
+
+   Working revision:	1.1.1.1	2026-02-09 02:03:19 +0000
+   Repository revision:	1.1.1.1	/penguinpanthers/ec4/cv/fuente/grado3/stub.c,v
+   Commit Identifier:	10069894067006DC7AC
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+cvs status: Examining fuente/grado4
+===================================================================
+File: no file LEE.ME		Status: Locally Removed
+
+   Working revision:	-1.1.1.1	2026-02-09 02:03:19 +0000
+   Repository revision:	1.1.1.1	/penguinpanthers/ec4/cv/fuente/grado4/LEE.ME,v
+   Commit Identifier:	10069894067006DC7AC
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: LEE.PORFAVOR     	Status: Locally Added
+
+   Working revision:	New file!
+   Repository revision:	No revision control file
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: compilar.sh      	Status: Locally Modified
+
+   Working revision:	1.1.1.1	2026-02-09 02:03:19 +0000
+   Repository revision:	1.1.1.1	/penguinpanthers/ec4/cv/fuente/grado4/compilar.sh,v
+   Commit Identifier:	10069894067006DC7AC
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: grado4.c         	Status: Locally Modified
+
+   Working revision:	1.1.1.1	2026-02-09 02:03:19 +0000
+   Repository revision:	1.1.1.1	/penguinpanthers/ec4/cv/fuente/grado4/grado4.c,v
+   Commit Identifier:	10069894067006DC7AC
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: makefile         	Status: Locally Modified
+
+   Working revision:	1.1.1.1	2026-02-09 02:03:19 +0000
+   Repository revision:	1.1.1.1	/penguinpanthers/ec4/cv/fuente/grado4/makefile,v
+   Commit Identifier:	10069894067006DC7AC
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: stub.c           	Status: Locally Modified
+
+   Working revision:	1.1.1.1	2026-02-09 02:03:19 +0000
+   Repository revision:	1.1.1.1	/penguinpanthers/ec4/cv/fuente/grado4/stub.c,v
+   Commit Identifier:	10069894067006DC7AC
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+cvs status: Examining fuente/incl
+===================================================================
+File: no file LEE.ME		Status: Locally Removed
+
+   Working revision:	-1.1.1.1	2026-02-09 02:03:19 +0000
+   Repository revision:	1.1.1.1	/penguinpanthers/ec4/cv/fuente/incl/LEE.ME,v
+   Commit Identifier:	10069894067006DC7AC
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: LEE.PORFAVOR     	Status: Locally Added
+
+   Working revision:	New file!
+   Repository revision:	No revision control file
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: cadena.h         	Status: Locally Modified
+
+   Working revision:	1.1.1.1	2026-02-09 02:03:19 +0000
+   Repository revision:	1.1.1.1	/penguinpanthers/ec4/cv/fuente/incl/cadena.h,v
+   Commit Identifier:	10069894067006DC7AC
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: grado4.h         	Status: Locally Modified
+
+   Working revision:	1.1.1.1	2026-02-09 02:03:19 +0000
+   Repository revision:	1.1.1.1	/penguinpanthers/ec4/cv/fuente/incl/grado4.h,v
+   Commit Identifier:	10069894067006DC7AC
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: real.h           	Status: Locally Modified
+
+   Working revision:	1.1.1.1	2026-02-09 02:03:19 +0000
+   Repository revision:	1.1.1.1	/penguinpanthers/ec4/cv/fuente/incl/real.h,v
+   Commit Identifier:	10069894067006DC7AC
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: salir.h          	Status: Locally Modified
+
+   Working revision:	1.1.1.1	2026-02-09 02:03:19 +0000
+   Repository revision:	1.1.1.1	/penguinpanthers/ec4/cv/fuente/incl/salir.h,v
+   Commit Identifier:	10069894067006DC7AC
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+cvs status: Examining fuente/lib
+===================================================================
+File: no file LEE.ME		Status: Locally Removed
+
+   Working revision:	-1.1.1.1	2026-02-09 02:03:19 +0000
+   Repository revision:	1.1.1.1	/penguinpanthers/ec4/cv/fuente/lib/LEE.ME,v
+   Commit Identifier:	10069894067006DC7AC
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: LEE.PORFAVOR     	Status: Locally Added
+
+   Working revision:	New file!
+   Repository revision:	No revision control file
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: cadena.c         	Status: Locally Modified
+
+   Working revision:	1.1.1.1	2026-02-09 02:03:19 +0000
+   Repository revision:	1.1.1.1	/penguinpanthers/ec4/cv/fuente/lib/cadena.c,v
+   Commit Identifier:	10069894067006DC7AC
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: compilar.sh      	Status: Locally Modified
+
+   Working revision:	1.1.1.1	2026-02-09 02:03:19 +0000
+   Repository revision:	1.1.1.1	/penguinpanthers/ec4/cv/fuente/lib/compilar.sh,v
+   Commit Identifier:	10069894067006DC7AC
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: makefile         	Status: Locally Modified
+
+   Working revision:	1.1.1.1	2026-02-09 02:03:19 +0000
+   Repository revision:	1.1.1.1	/penguinpanthers/ec4/cv/fuente/lib/makefile,v
+   Commit Identifier:	10069894067006DC7AC
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: real.c           	Status: Locally Modified
+
+   Working revision:	1.1.1.1	2026-02-09 02:03:19 +0000
+   Repository revision:	1.1.1.1	/penguinpanthers/ec4/cv/fuente/lib/real.c,v
+   Commit Identifier:	10069894067006DC7AC
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: salir.c          	Status: Locally Modified
+
+   Working revision:	1.1.1.1	2026-02-09 02:03:19 +0000
+   Repository revision:	1.1.1.1	/penguinpanthers/ec4/cv/fuente/lib/salir.c,v
+   Commit Identifier:	10069894067006DC7AC
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+cvs status: Examining fuente/util
+===================================================================
+File: no file LEE.ME		Status: Locally Removed
+
+   Working revision:	-1.1.1.1	2026-02-09 02:03:19 +0000
+   Repository revision:	1.1.1.1	/penguinpanthers/ec4/cv/fuente/util/LEE.ME,v
+   Commit Identifier:	10069894067006DC7AC
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: LEE.PORFAVOR     	Status: Locally Added
+
+   Working revision:	New file!
+   Repository revision:	No revision control file
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: util.c           	Status: Locally Modified
+
+   Working revision:	1.1.1.1	2026-02-09 02:03:19 +0000
+   Repository revision:	1.1.1.1	/penguinpanthers/ec4/cv/fuente/util/util.c,v
+   Commit Identifier:	10069894067006DC7AC
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+# cvs commit -m ""^[[D     insers cion de ky eywords y renombrado de lel  ee.me"
+cvs commit: Examining fuente
+cvs commit: Examining fuente/ec4
+cvs commit: Examining fuente/grado0
+cvs commit: Examining fuente/grado1
+cvs commit: Examining fuente/grado2
+cvs commit: Examining fuente/grado3
+cvs commit: Examining fuente/grado4
+cvs commit: Examining fuente/incl
+cvs commit: Examining fuente/lib
+cvs commit: Examining fuente/util
+/penguinpanthers/ec4/cv/fuente/ec4/LEE.ME,v  <--  fuente/ec4/LEE.ME
+new revision: delete; previous revision: 1.1.1.1
+/penguinpanthers/ec4/cv/fuente/ec4/LEE.PORFAVOR,v  <--  fuente/ec4/LEE.PORFAVOR
+initial revision: 1.1
+/penguinpanthers/ec4/cv/fuente/ec4/compilar.sh,v  <--  fuente/ec4/compilar.sh
+new revision: 1.2; previous revision: 1.1
+/penguinpanthers/ec4/cv/fuente/ec4/ec4.c,v  <--  fuente/ec4/ec4.c
+new revision: 1.2; previous revision: 1.1
+/penguinpanthers/ec4/cv/fuente/ec4/makefile,v  <--  fuente/ec4/makefile
+new revision: 1.2; previous revision: 1.1
+/penguinpanthers/ec4/cv/fuente/grado0/LEE.ME,v  <--  fuente/grado0/LEE.ME
+new revision: delete; previous revision: 1.1.1.1
+/penguinpanthers/ec4/cv/fuente/grado0/LEE.PORFAVOR,v  <--  fuente/grado0/LEE.PORFAVOR
+initial revision: 1.1
+/penguinpanthers/ec4/cv/fuente/grado0/compilar.sh,v  <--  fuente/grado0/compilar.sh
+new revision: 1.2; previous revision: 1.1
+/penguinpanthers/ec4/cv/fuente/grado0/grado0.c,v  <--  fuente/grado0/grado0.c
+new revision: 1.2; previous revision: 1.1
+/penguinpanthers/ec4/cv/fuente/grado0/makefile,v  <--  fuente/grado0/makefile
+new revision: 1.2; previous revision: 1.1
+/penguinpanthers/ec4/cv/fuente/grado0/stub.c,v  <--  fuente/grado0/stub.c
+new revision: 1.2; previous revision: 1.1
+/penguinpanthers/ec4/cv/fuente/grado1/LEE.ME,v  <--  fuente/grado1/LEE.ME
+new revision: delete; previous revision: 1.1.1.1
+/penguinpanthers/ec4/cv/fuente/grado1/LEE.PORFAVOR,v  <--  fuente/grado1/LEE.PORFAVOR
+initial revision: 1.1
+/penguinpanthers/ec4/cv/fuente/grado1/compilar.sh,v  <--  fuente/grado1/compilar.sh
+new revision: 1.2; previous revision: 1.1
+/penguinpanthers/ec4/cv/fuente/grado1/grado1.c,v  <--  fuente/grado1/grado1.c
+new revision: 1.2; previous revision: 1.1
+/penguinpanthers/ec4/cv/fuente/grado1/makefile,v  <--  fuente/grado1/makefile
+new revision: 1.2; previous revision: 1.1
+/penguinpanthers/ec4/cv/fuente/grado1/stub.c,v  <--  fuente/grado1/stub.c
+new revision: 1.2; previous revision: 1.1
+/penguinpanthers/ec4/cv/fuente/grado2/LEE.ME,v  <--  fuente/grado2/LEE.ME
+new revision: delete; previous revision: 1.1.1.1
+/penguinpanthers/ec4/cv/fuente/grado2/LEE.PORFAVOR,v  <--  fuente/grado2/LEE.PORFAVOR
+initial revision: 1.1
+/penguinpanthers/ec4/cv/fuente/grado2/compilar.sh,v  <--  fuente/grado2/compilar.sh
+new revision: 1.2; previous revision: 1.1
+/penguinpanthers/ec4/cv/fuente/grado2/grado2.c,v  <--  fuente/grado2/grado2.c
+new revision: 1.2; previous revision: 1.1
+/penguinpanthers/ec4/cv/fuente/grado2/makefile,v  <--  fuente/grado2/makefile
+new revision: 1.2; previous revision: 1.1
+/penguinpanthers/ec4/cv/fuente/grado2/stub.c,v  <--  fuente/grado2/stub.c
+new revision: 1.2; previous revision: 1.1
+/penguinpanthers/ec4/cv/fuente/grado3/LEE.ME,v  <--  fuente/grado3/LEE.ME
+new revision: delete; previous revision: 1.1.1.1
+/penguinpanthers/ec4/cv/fuente/grado3/LEE.PORFAVOR,v  <--  fuente/grado3/LEE.PORFAVOR
+initial revision: 1.1
+/penguinpanthers/ec4/cv/fuente/grado3/compilar.sh,v  <--  fuente/grado3/compilar.sh
+new revision: 1.2; previous revision: 1.1
+/penguinpanthers/ec4/cv/fuente/grado3/grado3.c,v  <--  fuente/grado3/grado3.c
+new revision: 1.2; previous revision: 1.1
+/penguinpanthers/ec4/cv/fuente/grado3/makefile,v  <--  fuente/grado3/makefile
+new revision: 1.2; previous revision: 1.1
+/penguinpanthers/ec4/cv/fuente/grado3/stub.c,v  <--  fuente/grado3/stub.c
+new revision: 1.2; previous revision: 1.1
+/penguinpanthers/ec4/cv/fuente/grado4/LEE.ME,v  <--  fuente/grado4/LEE.ME
+new revision: delete; previous revision: 1.1.1.1
+/penguinpanthers/ec4/cv/fuente/grado4/LEE.PORFAVOR,v  <--  fuente/grado4/LEE.PORFAVOR
+initial revision: 1.1
+/penguinpanthers/ec4/cv/fuente/grado4/compilar.sh,v  <--  fuente/grado4/compilar.sh
+new revision: 1.2; previous revision: 1.1
+/penguinpanthers/ec4/cv/fuente/grado4/grado4.c,v  <--  fuente/grado4/grado4.c
+new revision: 1.2; previous revision: 1.1
+/penguinpanthers/ec4/cv/fuente/grado4/makefile,v  <--  fuente/grado4/makefile
+new revision: 1.2; previous revision: 1.1
+/penguinpanthers/ec4/cv/fuente/grado4/stub.c,v  <--  fuente/grado4/stub.c
+new revision: 1.2; previous revision: 1.1
+/penguinpanthers/ec4/cv/fuente/incl/LEE.ME,v  <--  fuente/incl/LEE.ME
+new revision: delete; previous revision: 1.1.1.1
+/penguinpanthers/ec4/cv/fuente/incl/LEE.PORFAVOR,v  <--  fuente/incl/LEE.PORFAVOR
+initial revision: 1.1
+/penguinpanthers/ec4/cv/fuente/incl/cadena.h,v  <--  fuente/incl/cadena.h
+new revision: 1.2; previous revision: 1.1
+/penguinpanthers/ec4/cv/fuente/incl/grado4.h,v  <--  fuente/incl/grado4.h
+new revision: 1.2; previous revision: 1.1
+/penguinpanthers/ec4/cv/fuente/incl/real.h,v  <--  fuente/incl/real.h
+new revision: 1.2; previous revision: 1.1
+/penguinpanthers/ec4/cv/fuente/incl/salir.h,v  <--  fuente/incl/salir.h
+new revision: 1.2; previous revision: 1.1
+/penguinpanthers/ec4/cv/fuente/lib/LEE.ME,v  <--  fuente/lib/LEE.ME
+new revision: delete; previous revision: 1.1.1.1
+/penguinpanthers/ec4/cv/fuente/lib/LEE.PORFAVOR,v  <--  fuente/lib/LEE.PORFAVOR
+initial revision: 1.1
+/penguinpanthers/ec4/cv/fuente/lib/cadena.c,v  <--  fuente/lib/cadena.c
+new revision: 1.2; previous revision: 1.1
+/penguinpanthers/ec4/cv/fuente/lib/compilar.sh,v  <--  fuente/lib/compilar.sh
+new revision: 1.2; previous revision: 1.1
+/penguinpanthers/ec4/cv/fuente/lib/makefile,v  <--  fuente/lib/makefile
+new revision: 1.2; previous revision: 1.1
+/penguinpanthers/ec4/cv/fuente/lib/real.c,v  <--  fuente/lib/real.c
+new revision: 1.2; previous revision: 1.1
+/penguinpanthers/ec4/cv/fuente/lib/salir.c,v  <--  fuente/lib/salir.c
+new revision: 1.2; previous revision: 1.1
+/penguinpanthers/ec4/cv/fuente/util/LEE.ME,v  <--  fuente/util/LEE.ME
+new revision: delete; previous revision: 1.1.1.1
+/penguinpanthers/ec4/cv/fuente/util/LEE.PORFAVOR,v  <--  fuente/util/LEE.PORFAVOR
+initial revision: 1.1
+/penguinpanthers/ec4/cv/fuente/util/util.c,v  <--  fuente/util/util.c
+new revision: 1.2; previous revision: 1.1
+# exit
+
+Script done on 2026-02-09 02:06:29+00:00 [COMMAND_EXIT_CODE="0"]

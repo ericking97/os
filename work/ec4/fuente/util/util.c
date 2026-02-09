@@ -1,3 +1,4 @@
+/* $Id: util.c,v 1.2 2026/02/09 02:06:25 root Exp $ */
 /**************************************************************************
 * checa_raices : Verifica las reaices obtenidas de la ecuación cuartica.
 * Regresa CIERTO si pasan la prueba y viceversa.

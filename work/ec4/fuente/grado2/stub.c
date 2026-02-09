@@ -1,3 +1,4 @@
+/* $Id: stub.c,v 1.2 2026/02/09 02:06:25 root Exp $ */
 /**************************************************************************
 * Programa stub: Resuelve polinomios de grados 2 analíticamente *
 * empleando la librería grado2. Además usa la librería salir para terminar*

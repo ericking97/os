@@ -1,3 +1,4 @@
+/* $Id: grado3.c,v 1.2 2026/02/09 02:06:25 root Exp $ */
 /**************************************************************************
 * cubica : Resuelve la ecuación cúbica mediante las formulas de Tartaglia *
 * y regresa el número de pares conjugados de raíces complejas. Si todas *

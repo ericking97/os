@@ -1,3 +1,4 @@
+/* $Id: ec4.c,v 1.2 2026/02/09 02:06:25 root Exp $ */
 #include "grado4.h"
 
 int main(int argc, char *argv[])

@@ -1,0 +1,29 @@
+head	1.1;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.1
+date	2026.02.09.02.06.25;	author root;	state Exp;
+branches;
+next	;
+commitid	10069894121011E5798;
+
+
+desc
+@@
+
+
+1.1
+log
+@insercion de keywords y renombrado de lee.me
+@
+text
+@Directorio util
+
+Funciones misceláneas para este proyecto.
+Lo componen:
+- util.c
+@

@@ -1,3 +1,4 @@
+/* $Id: salir.h,v 1.2 2026/02/09 02:06:25 root Exp $ */
 /***********************************************************************
 * Archivo salir.h: Contiene los headers y prototipos de las funciones *
 * para salir de un programa.

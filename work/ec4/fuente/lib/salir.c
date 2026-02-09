@@ -1,3 +1,4 @@
+/* $Id: salir.c,v 1.2 2026/02/09 02:06:25 root Exp $ */
 /***********************************************************************
 * Archivo salir.c: Contiene las funciones para salir de un programa. *
 * *

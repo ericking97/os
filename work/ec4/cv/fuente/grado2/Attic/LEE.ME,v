@@ -1,0 +1,70 @@
+head	1.2;
+access;
+symbols
+	start:1.1.1.1 EC4:1.1.1;
+locks; strict;
+comment	@.\" @;
+
+
+1.2
+date	2026.02.09.02.06.25;	author root;	state dead;
+branches;
+next	1.1;
+commitid	10069894121011E5798;
+
+1.1
+date	2026.02.09.02.03.19;	author root;	state Exp;
+branches
+	1.1.1.1;
+next	;
+commitid	10069894067006DC7AC;
+
+1.1.1.1
+date	2026.02.09.02.03.19;	author root;	state Exp;
+branches;
+next	;
+commitid	10069894067006DC7AC;
+
+
+desc
+@@
+
+
+1.2
+log
+@insercion de keywords y renombrado de lee.me
+@
+text
+@Grado2
+Resuelve la ecuación de grado 2.
+Se corre:
+grado2 a0 a1 a2
+donde:
+a0,a1,a2: Coeficientes de la ecuación.
+Si a2 es 0 se resuelve la ecuación de grado 1.
+Si además a1 es 0 se resuelve la ecuación de grado 0.
+Los archivos que componen este modulo son:
+- grado2.c: Solución de la ecuación.
+- stub.c: Programa probador.
+- makefile: Archivo make para compilar este modulo.
+- compilar.sh: script que maneja la compilación.
+Los archivos de la ecuación de grado0, grado1, util se accesan vía el
+archivo make.
+
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@@
+
+
+1.1.1.1
+log
+@Importacion inicial
+@
+text
+@@

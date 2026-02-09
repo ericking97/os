@@ -1,3 +1,4 @@
+/* $Id: grado0.c,v 1.2 2026/02/09 02:06:25 root Exp $ */
 /**************************************************************************
 * constante: Resuelve la ecuación constante mediante las consideraciones *
 * analíticas.

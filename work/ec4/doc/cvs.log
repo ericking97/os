@@ -1,0 +1,165 @@
+Script started on 2026-02-09 02:02:08+00:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="106" LINES="51"]
+# echo $CVS_ROOT
+
+# ^[[A    echo $CVSROOT
+/penguinpanthers/ec4/cv
+# cvs -d $V CVSROOT init
+# cd    ls cv	
+CVSROOT
+# cd fuente
+# pwd
+/penguinpanthers/ec4/fuente
+# ls
+ec4  grado0  grado1  grado2  grado3  grado4  incl  lib	util
+# cvs -d /p  $V CVSROOT import -m "Ini  impor     mportacion inicial" fuente EC$ 4 start
+cvs import: Importing /penguinpanthers/ec4/cv/fuente/ec4
+N fuente/ec4/LEE.ME
+N fuente/ec4/compilar.sh
+N fuente/ec4/ec4.c
+I fuente/ec4/ec4.o
+N fuente/ec4/makefile
+cvs import: Importing /penguinpanthers/ec4/cv/fuente/grado0
+N fuente/grado0/LEE.ME
+N fuente/grado0/compilar.sh
+N fuente/grado0/grado0.c
+I fuente/grado0/grado0.o
+N fuente/grado0/makefile
+N fuente/grado0/stub.c
+I fuente/grado0/stub.o
+cvs import: Importing /penguinpanthers/ec4/cv/fuente/grado1
+N fuente/grado1/LEE.ME
+N fuente/grado1/compilar.sh
+N fuente/grado1/grado1.c
+I fuente/grado1/grado1.o
+N fuente/grado1/makefile
+N fuente/grado1/stub.c
+I fuente/grado1/stub.o
+cvs import: Importing /penguinpanthers/ec4/cv/fuente/grado2
+N fuente/grado2/LEE.ME
+N fuente/grado2/compilar.sh
+N fuente/grado2/grado2.c
+I fuente/grado2/grado2.o
+N fuente/grado2/makefile
+N fuente/grado2/stub.c
+I fuente/grado2/stub.o
+cvs import: Importing /penguinpanthers/ec4/cv/fuente/grado3
+N fuente/grado3/LEE.ME
+N fuente/grado3/compilar.sh
+N fuente/grado3/grado3.c
+I fuente/grado3/grado3.o
+N fuente/grado3/makefile
+N fuente/grado3/stub.c
+I fuente/grado3/stub.o
+cvs import: Importing /penguinpanthers/ec4/cv/fuente/grado4
+N fuente/grado4/LEE.ME
+N fuente/grado4/compilar.sh
+N fuente/grado4/grado4.c
+I fuente/grado4/grado4.o
+N fuente/grado4/makefile
+N fuente/grado4/stub.c
+I fuente/grado4/stub.o
+cvs import: Importing /penguinpanthers/ec4/cv/fuente/incl
+N fuente/incl/LEE.ME
+N fuente/incl/cadena.h
+N fuente/incl/grado4.h
+N fuente/incl/real.h
+N fuente/incl/salir.h
+cvs import: Importing /penguinpanthers/ec4/cv/fuente/lib
+N fuente/lib/LEE.ME
+N fuente/lib/cadena.c
+I fuente/lib/cadena.o
+N fuente/lib/compilar.sh
+N fuente/lib/makefile
+N fuente/lib/real.c
+I fuente/lib/real.o
+N fuente/lib/salir.c
+I fuente/lib/salir.o
+cvs import: Importing /penguinpanthers/ec4/cv/fuente/util
+N fuente/util/LEE.ME
+N fuente/util/util.c
+I fuente/util/util.o
+
+No conflicts created by this import
+
+# cd    cd ..
+# pwd
+/penguinpanthers/ec4
+# ls
+bin  cv  doc  fuente  keywords.sh  lib	renombrar.sh
+# ls cv
+CVSROOT  fuente
+# ls cv/fi	 uente
+ec4  grado0  grado1  grado2  grado3  grado4  incl  lib	util
+# rm -rf fuente
+# ls
+bin  cv  doc  keywords.sh  lib	renombrar.sh
+# cvs -d /penguin          $VS  CVSROOT checkout fuente
+cvs checkout: Updating fuente
+cvs checkout: Updating fuente/ec4
+U fuente/ec4/LEE.ME
+U fuente/ec4/compilar.sh
+U fuente/ec4/ec4.c
+U fuente/ec4/makefile
+cvs checkout: Updating fuente/grado0
+U fuente/grado0/LEE.ME
+U fuente/grado0/compilar.sh
+U fuente/grado0/grado0.c
+U fuente/grado0/makefile
+U fuente/grado0/stub.c
+cvs checkout: Updating fuente/grado1
+U fuente/grado1/LEE.ME
+U fuente/grado1/compilar.sh
+U fuente/grado1/grado1.c
+U fuente/grado1/makefile
+U fuente/grado1/stub.c
+cvs checkout: Updating fuente/grado2
+U fuente/grado2/LEE.ME
+U fuente/grado2/compilar.sh
+U fuente/grado2/grado2.c
+U fuente/grado2/makefile
+U fuente/grado2/stub.c
+cvs checkout: Updating fuente/grado3
+U fuente/grado3/LEE.ME
+U fuente/grado3/compilar.sh
+U fuente/grado3/grado3.c
+U fuente/grado3/makefile
+U fuente/grado3/stub.c
+cvs checkout: Updating fuente/grado4
+U fuente/grado4/LEE.ME
+U fuente/grado4/compilar.sh
+U fuente/grado4/grado4.c
+U fuente/grado4/makefile
+U fuente/grado4/stub.c
+cvs checkout: Updating fuente/incl
+U fuente/incl/LEE.ME
+U fuente/incl/cadena.h
+U fuente/incl/grado4.h
+U fuente/incl/real.h
+U fuente/incl/salir.h
+cvs checkout: Updating fuente/lib
+U fuente/lib/LEE.ME
+U fuente/lib/cadena.c
+U fuente/lib/compilar.sh
+U fuente/lib/makefile
+U fuente/lib/real.c
+U fuente/lib/salir.c
+cvs checkout: Updating fuente/util
+U fuente/util/LEE.ME
+U fuente/util/util.c
+# ls -la /penguinpanthers/ec4/fuente
+total 0
+drwxr-xr-x. 1 root root 94 Feb  9 02:04 .
+drwxr-xr-x. 1 1000 1000 80 Feb  9 02:04 ..
+drwxr-xr-x. 1 root root 42 Feb  9 02:04 CVS
+drwxr-xr-x. 1 root root 66 Feb  9 02:04 ec4
+drwxr-xr-x. 1 root root 84 Feb  9 02:04 grado0
+drwxr-xr-x. 1 root root 84 Feb  9 02:04 grado1
+drwxr-xr-x. 1 root root 84 Feb  9 02:04 grado2
+drwxr-xr-x. 1 root root 84 Feb  9 02:04 grado3
+drwxr-xr-x. 1 root root 84 Feb  9 02:04 grado4
+drwxr-xr-x. 1 root root 76 Feb  9 02:04 incl
+drwxr-xr-x. 1 root root 98 Feb  9 02:04 lib
+drwxr-xr-x. 1 root root 30 Feb  9 02:04 util
+# exit
+
+Script done on 2026-02-09 02:04:26+00:00 [COMMAND_EXIT_CODE="0"]

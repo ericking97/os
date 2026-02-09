@@ -1,0 +1,33 @@
+head	1.1;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.1
+date	2026.02.09.02.06.25;	author root;	state Exp;
+branches;
+next	;
+commitid	10069894121011E5798;
+
+
+desc
+@@
+
+
+1.1
+log
+@insercion de keywords y renombrado de lee.me
+@
+text
+@libgrado4.a
+Librería para el proyecto.
+La componen:
+- cadena.c: Funciones para el manejo de cadenas.
+- real.c: Funciones para el manejo de números reales.
+- salir.c: Funciones para terminar el programa.
+- makefile: Archivo make para generar la librería. Esta se envía al directorio lib.
+- compilar.sh: script para generar la librería.
+
+@

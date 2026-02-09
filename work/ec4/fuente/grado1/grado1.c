@@ -1,3 +1,4 @@
+/* $Id: grado1.c,v 1.2 2026/02/09 02:06:25 root Exp $ */
 /**************************************************************************
 * lineal : Resuelve la ecuación lineal mediante la formula analítica y *
 * regresa el número de raíces halladas.

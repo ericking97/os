@@ -1,0 +1,102 @@
+Script started on 2026-02-09 02:55:14+00:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="106" LINES="51"]
+# gdb ./bin/etc  c4
+[35;1mGNU gdb (Debian 16.3-1) 16.3[m
+Copyright (C) 2024 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <[32mhttp://gnu.org/licenses/gpl.html[m>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "[1mshow copying[m" and "[1mshow warranty[m" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "[1mshow configuration[m" for configuration details.
+For bug reporting instructions, please see:
+[32m<https://www.gnu.org/software/gdb/bugs/>[m.
+Find the GDB manual and other documentation resources online at:
+    <[32mhttp://www.gnu.org/software/gdb/documentation/[m>.
+
+For help, type "[1mhelp[m".
+Type "[1mapropos word[m" to search for commands related to "word"...
+Reading symbols from [32m./bin/ec4[m...
+[?2004h(gdb) break main
+[?2004lBreakpoint 1 at [34m0x34fd[m: file [32mec4.c[m, line [2m6[m.
+[?2004h(gdb) break constante
+[?2004lBreakpoint 2 at [34m0x1259[m: file [32m/penguinpanthers/ec4/fuente/grado0/grado0.c[m, line [2m10[m.
+[?2004h(gdb) break lineal
+[?2004lBreakpoint 3 at [34m0x1288[m: file [32m/penguinpanthers/ec4/fuente/grado1/grado1.c[m, line [2m11[m.
+[?2004h(gdb) break cuadratica
+[?2004lBreakpoint 4 at [34m0x12fd[m: file [32m/penguinpanthers/ec4/fuente/grado2/grado2.c[m, line [2m23[m.
+[?2004h(gdb) break cubica
+[?2004lBreakpoint 5 at [34m0x156d[m: file [32m/penguinpanthers/ec4/fuente/grado3/grado3.c[m, line [2m25[m.
+[?2004h(gdb) break cuartica
+[?2004lBreakpoint 6 at [34m0x1d57[m: file [32m/penguinpanthers/ec4/fuente/grado4/grado4.c[m, line [2m42[m.
+[?2004h(gdb) run 1 0 1
+[?2004lStarting program: [32m/penguinpanthers/ec4/bin/ec4[m 1 0 1
+warning: Error disabling address space randomization: Operation not permitted
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "[32m/lib/x86_64-linux-gnu/libthread_db.so.1[m".
+
+Breakpoint 1, [33mmain[m ([36margc[m=4, [36margv[m=0x7ffcd0a697d8) at [32mec4.c[m:[2m6[m
+[2m6[m	    vector c [31m=[m [01mcrea_vector[m[31m([mMAX_COEF[31m);[m
+[?2004h[?2004l[?2004h(gdb) c
+[?2004lContinuing.
+[Detaching after vfork from child process 338]
+[H[2J[3J
+Breakpoint 6, [33mcuartica[m ([36mc[m=0x5585b09002a0, [36mx[m=0x5585b09002d0)
+    at [32m/penguinpanthers/ec4/fuente/grado4/grado4.c[m:[2m42[m
+[2m42[m	    [32mint[m conta [31m=[m [35m0[m[31m;[m
+[?2004h[?2004l[?2004h(gdb) c
+[?2004lContinuing.
+
+Breakpoint 5, [33mcubica[m ([36mc[m=0x5585b09002a0, [36mx[m=0x5585b09002d0)
+    at [32m/penguinpanthers/ec4/fuente/grado3/grado3.c[m:[2m25[m
+[2m25[m	    [01;34mif[m [31m([m[01mrealcmp[m[31m([mc[31m[[m[35m3[m[31m],[m [35m0[m[31m.))[m
+[?2004h[?2004l[?2004h(gdb) c
+[?2004lContinuing.
+
+Breakpoint 4, [33mcuadratica[m ([36mc[m=0x5585b09002a0, [36mx[m=0x5585b09002d0)
+    at [32m/penguinpanthers/ec4/fuente/grado2/grado2.c[m:[2m23[m
+[2m23[m	    [01;34mif[m [31m([m[01mrealcmp[m[31m([mc[31m[[m[35m2[m[31m],[m [35m0[m[31m.))[m
+[?2004h[?2004l[?2004h(gdb) waat[K[Ktch dis [K
+[?2004lHardware watchpoint 7: dis
+[?2004h(gdb) condition 1 dis < 0
+[?2004lNo symbol "dis" in current context.
+[?2004h(gdb) continue
+[?2004lContinuing.
+
+Hardware watchpoint 7: dis
+
+Old value = 0
+New value = -4
+[33mcuadratica[m ([36mc[m=0x5585b09002a0, [36mx[m=0x5585b09002d0) at [32m/penguinpanthers/ec4/fuente/grado2/grado2.c[m:[2m29[m
+[2m29[m	        [01;34mif[m [31m(![m[01mrealcmp[m[31m([mdis[31m,[m [35m0[m[31m.))[m
+[?2004h[?2004l[?2004h(gdb) cc[K
+[?2004lContinuing.
+
+Watchpoint 7 deleted because the program has left the block in
+which its expression is valid.
+[33mcubica[m ([36mc[m=0x5585b09002a0, [36mx[m=0x5585b09002d0) at [32m/penguinpanthers/ec4/fuente/grado3/grado3.c[m:[2m70[m
+[2m70[m	[31m}[m
+[?2004h[?2004l[?2004h(gdb) c
+[?2004lContinuing.
+ 			Checando las raices. 			 
+ 			No Hay Problema con las raices.			 
+ 			Evaluando el polinomio. 			 
+ 			No Hay Problema con las raices.			 
+				Ecuación			
+ 			+1.000000000000000000x^2 				
+ 			+0.000000000000000000x 				 
+ 			+1.000000000000000000 = 				 
+ 			0.000000000000000000		 
+ 			Las raices son:			 
+ 		x1 = -0.000000000000000000 +1.000000000000000000 i		 
+ 		x2 = -0.000000000000000000 -1.000000000000000000 i		 
+
+Ya termine por fin
+Gracias por la preferencia
+
+Corri en una multiusuario
+Bye
+[Inferior 1 (process 335) exited normally]
+[?2004h[?2004l[?2004h(gdb) [H[2J(gdb) quit
+[?2004l# exit
+
+Script done on 2026-02-09 02:57:12+00:00 [COMMAND_EXIT_CODE="0"]

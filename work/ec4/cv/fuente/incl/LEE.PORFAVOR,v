@@ -1,0 +1,31 @@
+head	1.1;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.1
+date	2026.02.09.02.06.25;	author root;	state Exp;
+branches;
+next	;
+commitid	10069894121011E5798;
+
+
+desc
+@@
+
+
+1.1
+log
+@insercion de keywords y renombrado de lee.me
+@
+text
+@Directorio incl
+
+Headers para los módulos del proyecto. Lo componen:
+- cadena.h: Funciones para el manejo de cadenas.
+- real.h: Funciones para el manejo de números reales.
+- salir.h: Funciones para terminar la ejecución del programa.
+- grado4.h: Funciones para resolver la ecuación de cuarto grado y menores
+@

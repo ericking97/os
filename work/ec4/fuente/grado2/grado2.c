@@ -1,3 +1,4 @@
+/* $Id: grado2.c,v 1.2 2026/02/09 02:06:25 root Exp $ */
 /**************************************************************************
 * cuadratica : Resuelve la ecuación cuadrática mediante la formula del *
 * chicharronero y regresa el número de pares conjugados de raíces *
