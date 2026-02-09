@@ -1,0 +1,113 @@
+Script started on 2026-02-09 01:05:53+00:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="106" LINES="51"]
+# ./ec4 0
+[H[2J[3J 			Checando las raices. 			 
+ 			No Hay Problema con las raices.			 
+ 			Evaluando el polinomio. 			 
+ 			No Hay Problema con las raices.			 
+				Ecuación			
+ 			0.000000000000000000 = 0.000000000000000000		 
+ 	La ecuación es valida para todos los reales y
+complejos.	 
+
+Ya termine por fin
+Gracias por la preferencia
+
+Corri en una multiusuario
+Bye
+# ./ec4 5
+[H[2J[3J 			Checando las raices. 			 
+ 			Si Hay Problema con las raices.			 
+ 			Evaluando el polinomio. 			 
+ 			Si Hay Problema con las raices.			 
+				Ecuación			
+ 			5.000000000000000000 = 0.000000000000000000		 
+ 			La ecuación no tiene raices.			 
+
+Ya termine por fin
+Gracias por la preferencia
+
+Corri en una multiusuario
+Bye
+# ./ec4 2 -4
+[H[2J[3J 			Checando las raices. 			 
+ 			No Hay Problema con las raices.			 
+ 			Evaluando el polinomio. 			 
+ 			No Hay Problema con las raices.			 
+				Ecuación			
+ 			-4.000000000000000000x 				 
+ 			+2.000000000000000000 = 				 
+ 			0.000000000000000000		 
+ 			Las raices son:			 
+ 			x1 = +0.5000000000000000000				 
+
+Ya termine por fin
+Gracias por la preferencia
+
+Corri en una multiusuario
+Bye
+# ^[[A^[[A        ./ec4 -1 09  1
+[H[2J[3J 			Checando las raices. 			 
+ 			No Hay Problema con las raices.			 
+ 			Evaluando el polinomio. 			 
+ 			No Hay Problema con las raices.			 
+				Ecuación			
+ 			+1.000000000000000000x^2 				
+ 			+0.000000000000000000x 				 
+ 			-1.000000000000000000 = 				 
+ 			0.000000000000000000		 
+ 			Las raices son:			 
+ 			x1 = +1.000000000000000000				 
+ 			x2 = -1.000000000000000000				 
+
+Ya termine por fin
+Gracias por la preferencia
+
+Corri en una multiusuario
+Bye
+# ./ec4 -6 11 -6 1
+[H[2J[3J 			Checando las raices. 			 
+ 			No Hay Problema con las raices.			 
+ 			Evaluando el polinomio. 			 
+ 			No Hay Problema con las raices.			 
+				Ecuación			
+ 			+1.000000000000000000x^3 				
+ 			-6.000000000000000000x^2 				
+ 			+11.00000000000000000x 				 
+ 			-6.000000000000000000 = 				 
+ 			0.000000000000000000		 
+ 			Las raices son:			 
+ 			x1 = +0.9999999999999997780				 
+ 			x2 = +2.000000000000000000				 
+ 			x3 = +3.000000000000000000				 
+
+Ya termine por fin
+Gracias por la preferencia
+
+Corri en una multiusuario
+Bye
+# ./ec4 4 0 -5 0 1
+[H[2J[3J 			Checando las raices. 			 
+ 			No Hay Problema con las raices.			 
+ 			Evaluando el polinomio. 			 
+ 			No Hay Problema con las raices.			 
+				Ecuación			
+ 			+1.000000000000000000x^4 				
+ 			+0.000000000000000000x^3 				
+ 			-5.000000000000000000x^2 				
+ 			+0.000000000000000000x 				 
+ 			+4.000000000000000000 = 				 
+ 			0.000000000000000000		 
+ 			Las raices son:			 
+ 			x1 = +2.000000000000000000				 
+ 			x2 = -2.000000000000000000				 
+ 			x3 = +1.000000000000000000				 
+ 			x4 = -1.000000000000000000				 
+
+Ya termine por fin
+Gracias por la preferencia
+
+Corri en una multiusuario
+Bye
+# exit
+
+Script done on 2026-02-09 01:07:15+00:00 [COMMAND_EXIT_CODE="0"]
