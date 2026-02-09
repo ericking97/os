@@ -1,0 +1,16 @@
+Script started on 2026-02-09 00:57:22+00:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="106" LINES="51"]
+# chmod +x compilar.sh
+# chmod +x        ./compilar.sh LIMPIA
+Borrado de objetos terminada
+# ./compilar. .sh C_LIB
+gcc -c -I/penguinpanthers/ec4/fuente/incl/ cadena.c
+gcc -c -I/penguinpanthers/ec4/fuente/incl/ real.c
+gcc -c -I/penguinpanthers/ec4/fuente/incl/ salir.c
+ar rc /penguinpanthers/ec4/lib/libgrado4.a cadena.o real.o salir.o
+Compilación de libreria terminada
+# ls -l /penguioon   npanthers/ec4/lib
+total 12
+-rw-r--r--. 1 root root 9574 Feb  9 00:57 libgrado4.a
+# exit
+
+Script done on 2026-02-09 00:58:00+00:00 [COMMAND_EXIT_CODE="0"]

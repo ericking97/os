@@ -1,0 +1,16 @@
+Script started on 2026-02-09 00:50:21+00:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="106" LINES="51"]
+# cmd  hmoi  od +x compi	 ilar.sh
+# ./compilar.sh LIMPIA
+Borrado de objetos terminado
+# ./compilar.sh CC
+gcc -c -I/penguinpanthers/ec4/fuente/incl// grado0.c -o grado0.o
+gcc -c -I/penguinpanthers/ec4/fuente/incl// /penguinpanthers/ec4/fuente/util//util.c -o /penguinpanthers/ec4/fuente/util//util.o
+gcc -c -I/penguinpanthers/ec4/fuente/incl// stub.c -o stub.o
+gcc grado0.o /penguinpanthers/ec4/fuente/util//util.o stub.o -L/penguinpanthers/ec4/lib// -lgrado4 -lm -o /penguinpanthers/ec4/bin/grado0
+Compilación terminada
+# ls -l /pen	 nguinpanthers/ec4/bin
+total 24
+-rwxr-xr-x. 1 root root 21560 Feb  9 00:50 grado0
+# exit
+
+Script done on 2026-02-09 00:51:10+00:00 [COMMAND_EXIT_CODE="0"]

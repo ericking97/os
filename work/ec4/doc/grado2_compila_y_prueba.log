@@ -1,0 +1,20 @@
+Script started on 2026-02-09 00:52:55+00:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="106" LINES="51"]
+# chmod +x compilar.sh
+# ./compilar.sh LIMPIA
+Borrado de objetos terminado
+# ./coim  mpilar.sh CC
+gcc -c -I/penguinpanthers/ec4/fuente/incl/ /penguinpanthers/ec4/fuente/grado0/grado0.c -o /penguinpanthers/ec4/fuente/grado0/grado0.o
+gcc -c -I/penguinpanthers/ec4/fuente/incl/ /penguinpanthers/ec4/fuente/grado1/grado1.c -o /penguinpanthers/ec4/fuente/grado1/grado1.o
+gcc -c -I/penguinpanthers/ec4/fuente/incl/ grado2.c -o grado2.o
+gcc -c -I/penguinpanthers/ec4/fuente/incl/ /penguinpanthers/ec4/fuente/util/util.c -o /penguinpanthers/ec4/fuente/util/util.o
+gcc -c -I/penguinpanthers/ec4/fuente/incl/ stub.c -o stub.o
+gcc /penguinpanthers/ec4/fuente/grado0/grado0.o /penguinpanthers/ec4/fuente/grado1/grado1.o grado2.o /penguinpanthers/ec4/fuente/util/util.o stub.o -L/penguinpanthers/ec4/lib/ -lgrado4 -lm -o /penguinpanthers/ec4/bin/grado2
+Compilación terminada
+# ./  ls -l /penguin	panthers/ec4. /bin
+total 72
+-rwxr-xr-x. 1 root root 21560 Feb  9 00:50 grado0
+-rwxr-xr-x. 1 root root 21624 Feb  9 00:52 grado1
+-rwxr-xr-x. 1 root root 21688 Feb  9 00:53 grado2
+# exit
+
+Script done on 2026-02-09 00:53:23+00:00 [COMMAND_EXIT_CODE="0"]

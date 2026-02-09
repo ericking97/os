@@ -1,0 +1,8 @@
+services:
+  server:
+    build: .
+    tty: true
+    stdin_open: true
+    volumes:
+      - ./work:/penguinpanthers:Z
+    command: ["bash", "--rcfile", "/penguinpanthers/.bashrc", "-i"]

@@ -1,0 +1,28 @@
+Script started on 2026-02-09 00:58:22+00:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="106" LINES="51"]
+# chmod +x compilar.sh
+# ./compilar.sh LIMPIA
+Borrado de objetos terminado
+# ./coim  mpilar.sh CC
+gcc -c -I/penguinpanthers/ec4/fuente/incl/ /penguinpanthers/ec4/fuente/grado0/grado0.c -o /penguinpanthers/ec4/fuente/grado0/grado0.o
+gcc -c -I/penguinpanthers/ec4/fuente/incl/ /penguinpanthers/ec4/fuente/grado1/grado1.c -o /penguinpanthers/ec4/fuente/grado1/grado1.o
+gcc -c -I/penguinpanthers/ec4/fuente/incl/ /penguinpanthers/ec4/fuente/grado2/grado2.c -o /penguinpanthers/ec4/fuente/grado2/grado2.o
+gcc -c -I/penguinpanthers/ec4/fuente/incl/ /penguinpanthers/ec4/fuente/grado3/grado3.c -o /penguinpanthers/ec4/fuente/grado3/grado3.o
+gcc -c -I/penguinpanthers/ec4/fuente/incl/ /penguinpanthers/ec4/fuente/grado4/grado4.c -o /penguinpanthers/ec4/fuente/grado4/grado4.o
+gcc -c -I/penguinpanthers/ec4/fuente/incl/ /penguinpanthers/ec4/fuente/util/util.c -o /penguinpanthers/ec4/fuente/util/util.o
+gcc -c -I/penguinpanthers/ec4/fuente/incl/ ec4.c -o ec4.o
+gcc /penguinpanthers/ec4/fuente/grado0/grado0.o /penguinpanthers/ec4/fuente/grado1/grado1.o /penguinpanthers/ec4/fuente/grado2/grado2.o /penguinpanthers/ec4/fuente/grado3/grado3.o /penguinpanthers/ec4/fuente/grado4/grado4.o /penguinpanthers/ec4/fuente/util/util.o ec4.o -L/penguinpanthers/ec4/lib/ -lgrado4 -lm -o /penguinpanthers/ec4/bin/ec4
+Compilación terminada
+# ls -0 l /penguinpanthers/ec4/lib
+total 12
+-rw-r--r--. 1 root root 9574 Feb  9 00:57 libgrado4.a
+# exit^[[A        ls -l /penguinpanthers/ec4/bin
+total 152
+-rwxr-xr-x. 1 root root 26264 Feb  9 00:58 ec4
+-rwxr-xr-x. 1 root root 21560 Feb  9 00:50 grado0
+-rwxr-xr-x. 1 root root 21624 Feb  9 00:52 grado1
+-rwxr-xr-x. 1 root root 21688 Feb  9 00:53 grado2
+-rwxr-xr-x. 1 root root 21880 Feb  9 00:53 grado3
+-rwxr-xr-x. 1 root root 26144 Feb  9 00:54 grado4
+# exit
+
+Script done on 2026-02-09 00:59:20+00:00 [COMMAND_EXIT_CODE="0"]

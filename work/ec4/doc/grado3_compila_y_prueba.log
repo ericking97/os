@@ -1,0 +1,24 @@
+Script started on 2026-02-09 00:53:33+00:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="106" LINES="51"]
+# chmod +x compilar.sh
+# ./compilar.sh LIMPIA
+Borrado de objetos terminado
+# ./compiular    lar.sh CC
+gcc -c -I/penguinpanthers/ec4/fuente/incl/ /penguinpanthers/ec4/fuente/grado0/grado0.c -o /penguinpanthers/ec4/fuente/grado0/grado0.o
+gcc -c -I/penguinpanthers/ec4/fuente/incl/ /penguinpanthers/ec4/fuente/grado1/grado1.c -o /penguinpanthers/ec4/fuente/grado1/grado1.o
+gcc -c -I/penguinpanthers/ec4/fuente/incl/ /penguinpanthers/ec4/fuente/grado2/grado2.c -o /penguinpanthers/ec4/fuente/grado2/grado2.o
+gcc -c -I/penguinpanthers/ec4/fuente/incl/ grado3.c -o grado3.o
+gcc -c -I/penguinpanthers/ec4/fuente/incl/ /penguinpanthers/ec4/fuente/util/util.c -o /penguinpanthers/ec4/fuente/util/util.o
+gcc -c -I/penguinpanthers/ec4/fuente/incl/ stub.c -o stub.o
+gcc /penguinpanthers/ec4/fuente/grado0/grado0.o /penguinpanthers/ec4/fuente/grado1/grado1.o /penguinpanthers/ec4/fuente/grado2/grado2.o grado3.o /penguinpanthers/ec4/fuente/util/util.o stub.o -L/penguinpanthers/ec4/lib/ -lgrado4 -lm -o /penguinpanthers/ec4/bin/grado3
+Compilación terminada
+# ls -l /com   penguinpanthers/bin
+ls: cannot access '/penguinpanthers/bin': No such file or directory
+# ^[[A    ls -0 l /penguinpanthers/ec4/bin
+total 96
+-rwxr-xr-x. 1 root root 21560 Feb  9 00:50 grado0
+-rwxr-xr-x. 1 root root 21624 Feb  9 00:52 grado1
+-rwxr-xr-x. 1 root root 21688 Feb  9 00:53 grado2
+-rwxr-xr-x. 1 root root 21880 Feb  9 00:53 grado3
+# exit
+
+Script done on 2026-02-09 00:54:08+00:00 [COMMAND_EXIT_CODE="0"]
